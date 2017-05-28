@@ -13,6 +13,10 @@ module.exports = {
   		size: 20,
   		primary: true
   	},
+    parent_id: {
+      type: 'string',
+      size: 20
+    }
   	firstName: {
   		type: 'string',
   		required: true,
@@ -31,6 +35,14 @@ module.exports = {
   		size: 20,
       unique: true
   	},
+    profilePic: {
+      type: 'string',
+      size: 20
+    },
+    coverPic: {
+      type: 'string',
+      size: 20
+    },
   	email: {
   		type: 'email',
   		size: 30,
