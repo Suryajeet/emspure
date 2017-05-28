@@ -32,8 +32,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-  }
+  'get /': 'Welcome to EMS',
 
   /***************************************************************************
   *                                                                          *
@@ -44,5 +43,12 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
+
+  'post /signin': 'UserController.signin',
+  'post /signup': 'UserController.signup',
+
+
+
+
 
 };
